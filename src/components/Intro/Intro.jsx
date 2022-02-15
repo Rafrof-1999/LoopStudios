@@ -11,11 +11,11 @@ export default function Intro() {
             </div>
             <div className='right'>
                 <ul className='sections'>
-                <li><a href="">About</a></li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Support</a></li>
+                <li><a>About</a></li>
+                <li><a>Careers</a></li>
+                <li><a>Events</a></li>
+                <li><a>Products</a></li>
+                <li><a>Support</a></li>
                 </ul>
 
             </div>
