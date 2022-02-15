@@ -12,10 +12,10 @@ export default function Footer() {
 
             <div className="ftright">
                 <ul>
-            <li><a href="#"><FaFacebookSquare className='icon'/></a></li>
-            <li><a href="#"><FaTwitterSquare className='icon'/></a></li>
-            <li><a href="#"><FaInstagramSquare className='icon'/></a></li>
-            <li><a href="#"><FaPinterestSquare className='icon'/></a></li>
+            <li><a href=""><FaFacebookSquare className='icon'/></a></li>
+            <li><a href=""><FaTwitterSquare className='icon'/></a></li>
+            <li><a href=""><FaInstagramSquare className='icon'/></a></li>
+            <li><a href=""><FaPinterestSquare className='icon'/></a></li>
             </ul>
 
             </div>
@@ -24,11 +24,11 @@ export default function Footer() {
         <div className="fbottom">
             <div className="fbleft">
                 <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Support</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Support</a></li>
 
                 </ul>
 
