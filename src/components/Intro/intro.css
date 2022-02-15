@@ -1,0 +1,83 @@
+.container{
+    height: 500px;
+    width: 100%;
+    background: url("../../images/image-hero.jpg"),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230);
+    position: relative;
+
+    
+    
+    
+}
+
+
+
+
+.topbar{
+    padding-left: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.right{
+    padding-right: 50px;
+}
+
+.sections {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections li{
+    padding-right: 40px;
+}
+
+.sections li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.sections li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .sections li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .box{
+      width: 600px;
+      height: 200px;
+      border: #fff;
+      position: absolute;
+      left: 120px;
+      bottom: 100px;
+      border-style: solid;
+      
+  }
+  .box h1{
+      font-size: 50px;
+      color: white;
+      font-weight: 300;
+      padding: 20px;
+  }
+

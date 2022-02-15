@@ -1,0 +1,30 @@
+.first {
+    width: 80%;
+    height: 100vh;
+    margin: 170px;
+    margin-top: 70px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.lefty h2{
+    color: black;
+    font-weight: 300;
+}
+.righty button{
+    width: 120px;
+    height: 40px;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    padding: 10px;
+    background-color: white;
+    border-width: 0.1;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.righty button:hover{
+    background-color: black;
+    color: white;
+}
+
