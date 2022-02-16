@@ -32,3 +32,31 @@
     padding-top: 0;
     color: grey
 }
+
+@media screen and (max-width: 420px){
+    .main{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .pic{
+        height: 420px;
+        width: 420px;
+        background: url("../../images/image-interactive.1d330522.jpg");
+        background-size: 420px 420px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .write{
+        width: 420px;
+        height: 420px;
+        top: 50%;
+        left: 0;
+
+    }
+    .write p{
+        font-size: 25px;
+    }
+    
+}

@@ -30,3 +30,12 @@
     color: gold;
     font-weight: 700;
 }
+
+@media screen and (max-width: 420px){
+    .item{
+        width: 150px;
+        height: 100px;
+        margin: 10px;
+        margin-right: 72px;
+    }
+}

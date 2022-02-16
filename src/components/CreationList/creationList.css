@@ -3,3 +3,15 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 420px){
+    .group{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 50px;
+        left: -170px;
+
+    }
+}

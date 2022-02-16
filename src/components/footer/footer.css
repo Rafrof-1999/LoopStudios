@@ -113,5 +113,55 @@
       font-size: 14px;
   }
 
+  @media screen and (max-width: 420px){
+      .fcontainer{
+          width: 100%;
+      }
+      .ftop{
+          width: 100%;
+          height: 75px;
+          display: flex;
+          justify-content: space-between;
+
+      }
+
+      .ftleft{
+          width: 50%;
+      }
+      .ftleft h2{
+          padding: 40px;
+          font-size: 20px;
+      }
+      .ftright{
+          width: 50%;
+      }
+      .ftright ul{
+          margin-left: 35px;
+      }
+      .fbottom{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+      }
+      .fbleft{
+          width: 100%;
+          margin-bottom: 10px;
+          position: absolute;
+          bottom: 40px;
+      }
+      .fbleft ul{
+          padding-right: 110px;
+          margin-left: -30px;
+      }
+      .fbright{
+          width: 100%;
+          position: absolute;
+          bottom: 20px;
+          left: 70px;
+      }
+  }
+
 
 

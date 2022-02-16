@@ -27,4 +27,28 @@
     background-color: black;
     color: white;
 }
+@media screen and (max-width: 420px){
+    .first{
+        width: 80%;
+        height: 55vh;
+        position: relative;
+    }
+    .top{
+        position: absolute;
+        left: --80px;
+
+    }
+    .lefty{
+        position: absolute;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        left: -20px;
+        
+    }
+    .righty{
+        position: relative;
+        top: 550px;
+        left: -20px;
+    }
+}
 
