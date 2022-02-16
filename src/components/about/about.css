@@ -33,17 +33,18 @@
     color: grey
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 650px){
     .main{
-        width: 100%;
+        width: 120%;
         height: 100vh;
         position: relative;
     }
     .pic{
         height: 420px;
-        width: 420px;
+        width: 580px;
         background: url("../../images/image-interactive.1d330522.jpg");
-        background-size: 420px 420px;
+        background-size: 580px 450px;
+        background-repeat: no-repeat;
         position: absolute;
         left: 0;
         top: 0;
@@ -52,7 +53,7 @@
         width: 420px;
         height: 420px;
         top: 50%;
-        left: 0;
+        left: 60px;
 
     }
     .write p{

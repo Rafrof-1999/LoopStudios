@@ -113,30 +113,34 @@
       font-size: 14px;
   }
 
-  @media screen and (max-width: 420px){
+  @media screen and (max-width: 650px){
       .fcontainer{
-          width: 100%;
+          width: 120%;
       }
       .ftop{
-          width: 100%;
+          width: 120%;
           height: 75px;
           display: flex;
           justify-content: space-between;
+          position: relative;
 
       }
 
       .ftleft{
-          width: 50%;
+          width: 60%;
       }
       .ftleft h2{
           padding: 40px;
           font-size: 20px;
       }
       .ftright{
-          width: 50%;
+          width: 60%;
+          position: absolute;
+          left: 140px;
       }
       .ftright ul{
-          margin-left: 35px;
+          margin-left: 150px;
+          padding-left: 20px;
       }
       .fbottom{
           display: flex;
@@ -146,20 +150,21 @@
           position: relative;
       }
       .fbleft{
-          width: 100%;
+          width: 120%;
           margin-bottom: 10px;
           position: absolute;
           bottom: 40px;
+          left: -150px;
       }
       .fbleft ul{
-          padding-right: 110px;
-          margin-left: -30px;
+          padding-right: 200px;
+          margin-left: 30px;
       }
       .fbright{
           width: 100%;
           position: absolute;
           bottom: 20px;
-          left: 70px;
+          left: 120px;
       }
   }
 
